@@ -10,9 +10,11 @@
 	{@param? header: html}
 	{@param? noCloseButton: bool}
 	{@param? role: string}
+	{@param? visible: bool}
 	<div
 		class="modal{$elementClasses ? ' ' + $elementClasses : ''}"
-		role="{$role ? $role : 'dialog'}">
+		role="{$role ? $role : 'dialog'}"
+		style="display: {$visible ? 'block' : 'none'}">
 		<div class="modal-dialog" tabindex="0">
 			<div class="modal-content">
 				<header class="modal-header">
