@@ -295,4 +295,5 @@ Modal.STATE = {
 
 Soy.register(Modal, templates);
 
+export { Modal };
 export default Modal;
