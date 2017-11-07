@@ -179,7 +179,7 @@ class Modal extends Component {
 	 * @protected
 	 */
 	valueOverlayElementFn_() {
-		return dom.buildFragment('<div class="modal-backdrop fade in"></div>').firstChild;
+		return dom.buildFragment('<div class="modal-backdrop fade show"></div>').firstChild;
 	}
 }
 
